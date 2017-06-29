@@ -93,31 +93,40 @@ img {
     max-width: 100%;
 }
 
-#social ul{
-	clear:left;
-    list-style:none;
-    margin:0;
-    padding:0;
-    position:relative;
-    left:50%;
-    text-align:center;
+#social ul {
+    clear: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    text-align: center;
 }
 
 #social li {
-	display:block;
-    float:left;
-    list-style:none;
-    margin:0;
-    padding:0;
-    position:relative;
-    right:50%;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 50%;
 }
 
-#social ul li img
-{
+#social ul li img {
     margin: 10px;
     height: 25px;
 }
+
+#social ul li img:hover {
+    border: 3px solid red;
+    box-shadow: 0 0 10px #333;
+    -webkit-box-shadow: 0 0 10px #333;
+    -moz-box-shadow: 0 0 10px #333;
+    -o-box-shadow: 0 0 10px #333;
+    -ms-box-shadow: 0 0 10px #333;
+}
+
 
 #location-list{
     margin-top: 75px;
