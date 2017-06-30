@@ -1,12 +1,11 @@
 /*global $ */
 $(document).ready(function() {
-    var email = $("input:text").val();
-    var name = $("input:text").val();
+    var email = $("#Email").val();
+    var name = $("#Name").val();
     $("#myModal").click(function() {
         //work on this later
          alert("Hi " + name + ". Thank you for signing up! We will send an email to"  + email + " shortly!");    
     });
-});
 
 $(".social_img").hover(function() {
         $(this).animate({
@@ -18,3 +17,9 @@ $(".social_img").hover(function() {
         }, 100);
         
     });
+});
+
+
+    /*    //work on this later
+         alert("Hi " + name + ". Thank you for signing up! We will send an email to"  + email + " shortly!");    
+    }); */
