@@ -58,6 +58,8 @@
     <script>
       var map;
       function initMap() {
+          var image = 'http://files.gamebanana.com/img/ico/sprays/krabby_patty_preview.png';
+
         var uluru = {lat: 40.7661763, lng: -73.9206756};
         var scripted = {lat:40.7039915, lng:-74.0132804};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -67,7 +69,8 @@
         var marker = new google.maps.Marker({
           position: uluru,
           position: scripted,
-          map: map
+          map: map,
+          icon: image,
         });
       }
     </script>

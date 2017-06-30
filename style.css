@@ -1,6 +1,6 @@
 body {
     padding-top: 50px;
-    background-color: #D62F01;
+    background-color: #000;
     border-color: #D62F01;
     font-family: 'Rubik', sans-serif;
     color: #FFFFFF;
@@ -169,3 +169,7 @@ img {
     text-decoration: none;
     cursor: pointer;
 } */
+
+button, input, select, textarea {
+    color: #43576b;
+}
